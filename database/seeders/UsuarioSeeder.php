@@ -19,13 +19,13 @@ class UsuarioSeeder extends Seeder
               'nome'  => 'Edson Rodrigues',
               'email' => 'edson@senac.br',
               'password' => Hash::make(12345678),
-              'perfil' => 'administrador'      
+              'perfil' => 'editor'      
             ],
             [
-              'nome'  => 'Celso Serrano',
-              'email' => 'celso@senac.br',
+              'nome'  => 'Thiago Afonso',
+              'email' => 'thiago@senac.br',
               'password' => Hash::make(12345678),
-              'perfil' => 'editor'
+              'perfil' => 'administrador'
             ]
         ]);
     }
